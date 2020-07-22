@@ -6,3 +6,5 @@ It is based on the ATSAME51 microcontroller from Microchip and features two isol
 
 This is WIP, the first two Revisions are up and running, the protoype boards for the third revision
 that is published here are ordered.
+
+The software for this project is here: https://github.com/jgressmann/supercan
