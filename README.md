@@ -16,4 +16,5 @@ There is an idea for a PCB with a different controller but unfortunately these a
 available anywhere, so this got pushed back.
 
 The open source firmware for this project is here: https://github.com/jgressmann/supercan
+
 An open source Windows application that works with this interface is here: https://github.com/TDahlmann/canpp
