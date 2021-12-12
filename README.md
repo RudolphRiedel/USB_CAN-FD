@@ -16,7 +16,7 @@ New for D5035-01-05: switched from a crystal to an oscillator to reduce the drif
 The PCB D5035-03-01 is designed as a carrier board for the Teensy 4.0.
 This is more a prove of concept, a child of the current chip-shortage.
 
-And it works but, it turned out to be rather fidgety to access the pins
+And it works, but it turned out to be rather fidgety to access the pins
 for the single CAN-FD available and the case does not work well for this version.
 
 ### Whats next
