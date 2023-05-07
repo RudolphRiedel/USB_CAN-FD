@@ -3,7 +3,7 @@ This is an Open Source Hardware USB to CAN-FD interface.
 The design goal of this PCB was to provide two isolated CAN-FD channels capable of 8MBit/s for the data phase.  
 
 ## D5035-01
-![USB_CAN-FD](/images/D5035-01.jpg?raw=true)
+![USB_CAN-FD](/images/D5035-01.jpg?raw=true)  
 The PCBs D5035-01-xx are based on the ATSAME51J microcontroller from Microchip.  
 Any ATSAME51J1x-Axx can be used, so every variant in TQFP-64, the bootloader and the firmware work on all three memory sizes.
 
@@ -19,7 +19,7 @@ And it works, but it turned out to be rather fidgety to access the pins
 for the single CAN-FD available and the 58 mm x 33 mm case does not work well for this version.
 
 ## D5035-05
-![USB_CAN-FD](/images/D5035-05.jpg?raw=true)
+![USB_CAN-FD](/images/D5035-05.jpg?raw=true)  
 The PCBs D5035-05-xx are based on the STM32G0B1CET6 microcontroller.  
 The board is slightly larger at 69 mm x 39 mm.  
 
