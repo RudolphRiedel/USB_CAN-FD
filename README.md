@@ -9,14 +9,14 @@ Any ATSAME51J1x-Axx can be used, so every variant in TQFP-64, the bootloader and
 
 This is WIP, the first five revisions are up and running.  
 New for D5035-01-05: switched from a crystal to an oscillator to reduce the drift in the timestamps.  
-The board is 58 mm x 33 mm for revisions 1 to 5, revision 6 will use a larger board of 69 mm x 39 mm.
+The board is 61 mm x 33 mm for revisions 1 to 5, revision 6 will use a larger board of 69 mm x 39 mm.
 
 ## D5035-03
 The PCB D5035-03-01 is designed as a carrier board for the Teensy 4.0.  
 This is more a prove of concept, a child of the current chip-shortage.  
 
 And it works, but it turned out to be rather fidgety to access the pins
-for the single CAN-FD available and the 58 mm x 33 mm case does not work well for this version.
+for the single CAN-FD available and the 61 mm x 33 mm case does not work well for this version.
 
 ## D5035-05
 ![USB_CAN-FD](/images/D5035-05.jpg?raw=true)  
@@ -24,7 +24,17 @@ The PCBs D5035-05-xx are based on the STM32G0B1CET6 microcontroller.
 The board is slightly larger at 69 mm x 39 mm.  
 
 This is WIP, the first revision is up and running.  
-PCBs for the second revision are ordered.  
+PCBs for the second revision are ordered.
+
+## Case
+There are two versions of a 3D printable case available in this repository:  
+D5035-01 - 39 mm x 74.1 mm  
+D5035-05 - 45 mm x 82.14 mm
+
+Assembly requires two press-fit light pipes for the status LEDs, two lengths of black 3.2 mm heat shrink tubing to hold the light pipes in place and four countersunk screws.
+
+LFB063CTP - DigiKey LFB063CTP-ND - Mouser 593-LFB063CTP  
+M3 x 16 mm, countersunk, preferably Torx / A2 (ISO 14581)
 
 ## Whats next
 There is an idea for a PCB with a different controller but unfortunately these are not
