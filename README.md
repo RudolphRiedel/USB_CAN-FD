@@ -17,6 +17,9 @@ Cheaping out on components like the D-Sub 9 would be possible, but I really advi
 
 The board is 69 mm x 39 mm.
 
+## D5035-01-20
+Almost the same as D5035-01-08, but with an USB-C connector.
+
 ## D5035-03
 The PCB D5035-03-01 is designed as a carrier board for the Teensy 4.0.
 This is more a prove of concept, a child of the current chip-shortage.
